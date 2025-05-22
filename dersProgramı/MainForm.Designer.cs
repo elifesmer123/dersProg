@@ -1,4 +1,4 @@
-﻿namespace dersProgramı
+namespace dersProgramı
 {
     partial class MainForm
     {
@@ -55,6 +55,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "hocalar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
@@ -81,6 +82,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "derslikler";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Visible = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
@@ -94,6 +96,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "dersler";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // listBox1
@@ -118,6 +121,7 @@
             this.label1.Size = new System.Drawing.Size(26, 18);
             this.label1.TabIndex = 5;
             this.label1.Text = "---";
+            this.label1.Visible = false;
             // 
             // button5
             // 
@@ -144,6 +148,7 @@
             this.label2.Size = new System.Drawing.Size(26, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "---";
+            this.label2.Visible = false;
             // 
             // label3
             // 
@@ -154,6 +159,7 @@
             this.label3.Size = new System.Drawing.Size(26, 18);
             this.label3.TabIndex = 8;
             this.label3.Text = "---";
+            this.label3.Visible = false;
             // 
             // button6
             // 
@@ -190,6 +196,7 @@
             this.label5.Size = new System.Drawing.Size(26, 18);
             this.label5.TabIndex = 12;
             this.label5.Text = "---";
+            this.label5.Visible = false;
             // 
             // button7
             // 
